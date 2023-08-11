@@ -5,7 +5,7 @@
   *Return: returns an integer 0
  */
 
-int main()
+int main(void)
 {
 	int n;
 
@@ -15,4 +15,4 @@ int main()
 	}
 	putchar('\n');
 	return (0);
-} 
+}
