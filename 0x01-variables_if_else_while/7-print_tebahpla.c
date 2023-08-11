@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-  *main -this function prints alphabets a-z in lower case
+  *main -this function prints alphabets in reverse in lower case
   *only the putchar  function has been used
   *Return:the function returns 0 since its a void function
   */
