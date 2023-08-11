@@ -2,8 +2,8 @@
 
 /**
   *main - this function print the alphabets skipping letters q and e
-  *Return:no return value-function is void 
-  */
+  *Return:no return value-function is void
+ */
 int main(void)
 {
 	char letter;
