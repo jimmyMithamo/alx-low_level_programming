@@ -3,25 +3,27 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**main-function assigns a random number and tests whether its
+  *greater than zero or less than zero
+  *Return: there is no return value.
+ */
 int main(void)
 {
 	int n;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	if (n>0)
+	if (n > 0)
 	{
-		printf("%d %s \n",n,"is positive");
+		printf("%d is positive\n", n);
 	}
-	else if(n==0)
+	else if (n == 0)
 	{
-		 printf("%d %s \n",n,"is zero");
+		printf("%d is zero\n",n);
 	}
 	else
 	{
-		 printf("%d %s \n",n,"is negative");
+		printf("%d is negative\n",n");
 	}
 	return (0);
 }
