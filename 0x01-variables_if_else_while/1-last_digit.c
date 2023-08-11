@@ -3,7 +3,13 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+  *main- this function gets the last digit of an integer.
+  *the random function generates the integer
+  *if - determines if the value of the last digit is less than 6 or greater than 
+  *5 and not zero
+  *returns 0
+ */
 int main(void)
 {
 	int n;
@@ -11,7 +17,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
 	last_digit = n%10;
 	if (last_digit > 5)
 	{
