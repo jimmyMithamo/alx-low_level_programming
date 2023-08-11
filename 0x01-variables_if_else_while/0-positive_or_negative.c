@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /*
- *main-function assigns a random number and tests whether its
- *greater than zero or less than zero
- *Return: there is no return value
+ * main - function assigns a random number and tests whether its
+ * greater than zero or less than zero
+ * Return: there is no return value
  */
 int main(void)
 {
