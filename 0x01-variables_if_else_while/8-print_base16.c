@@ -12,8 +12,8 @@ int main(void)
 	for (i = 0; i < 16; i++)
 	{
 		char hexChar = (i < 10) ? ('0' + i) : ('a' + i - 10);
-	        putchar(hexChar);
+		putchar(hexChar);
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
