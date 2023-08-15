@@ -2,9 +2,10 @@
 
 void print_fibonacci_98(void) {
     unsigned int a1 = 1, a2 = 2, next;
+    int i;
 
     _putchar('1');
-    for (int i = 1; i < 98; i++) {
+    for (i = 1; i < 98; i++) {
         if (i != 1) {
             _putchar(',');
             _putchar(' ');
