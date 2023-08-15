@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
-  * print_times_table - Prints a multiplication table up to a specified parameter
+  * print_times_table - Prints a multiplication table
+  *up to a specified parameter
   * @n: The number to be treated
   *
   * Return: no value
