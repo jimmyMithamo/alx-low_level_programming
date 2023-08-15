@@ -2,7 +2,8 @@
 
 /**
   * print_alphabet - prints the alphabet characters for 10 times
-  *print_alphabet_x10 - prints the alphabets 10 times
+  * print_alphabet_x10 - prints the alphabets 10 times
+  *
   * Return: void
   */
 void print_alphabet_x10(void)
