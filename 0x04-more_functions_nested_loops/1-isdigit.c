@@ -1,6 +1,7 @@
 #include "main.h"
 
-/**_isdigit - function checks whether a character is a digit.
+/**
+  *_isdigit - function checks whether a character is a digit.
   *
   *@c: character to be checked
   *Return: returns 1 if c is a digit and 0 otherwise
