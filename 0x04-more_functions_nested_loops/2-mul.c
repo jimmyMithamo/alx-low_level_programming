@@ -6,14 +6,11 @@
   *
   *@a: first number
   *@b: second number
-  *Return: always zero
+  *Return: return a multiplid by b
   */
 
 int mul(int a, int b)
 {
-	int result = a * b;
-
-	putchar(result);
-	return (0);
+	return (a * b);
 }
 
