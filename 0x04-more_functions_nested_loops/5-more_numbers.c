@@ -1,30 +1,23 @@
 #include "main.h"
 
 /**
-  *more_numbers - prints numbers 0-14 ten times
-  *_putchar - prints the character on the console
-  *Return: void
-  */
+ * more_numbers -prints numbers 1 to 14 10 times
+ *_putchar - writes into the console
+ * Return: void
+ */
 
 void more_numbers(void)
 {
-	int i, j;
 
-	for (i = 0; i < 10; i++)
+int i, j;
+	for (i = 1; i <= 10; i++)
 	{
 		for (j = 0; j <= 14; j++)
 		{
 			if (j >= 10)
-			{
-				_putchar('1');
-				_putchar(j % 10 + '0');
-			}
-			else
-			{
-				_putchar(j);
-			}
+			_putchar('1');
+			_putchar(j % 10 + '0');
 		}
-		_putchar('\n');
-	}
-	_putchar('\n');
+			_putchar('\n');
+		}
 }
