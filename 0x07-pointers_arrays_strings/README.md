@@ -1,4 +1,5 @@
 This project covers on pointers ,arrays and strings.
+
 **GENERAL**
 
 * What are pointers to pointers and how to use them
@@ -17,7 +18,7 @@ Solutions for the following tasks are provided:
 
 
 **NOTE:**
-* All the  files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-* The codes provided use Betty style.
-* Use of the standard library is forbidden.
+* All the  files will be compiled on Ubuntu 20.04 LTS using gcc, using the options *-Wall -Werror -Wextra -pedantic -std=gnu89*
+* The codes provided use **Betty style.**
+* Use of the standard library is **forbidden.**
 
