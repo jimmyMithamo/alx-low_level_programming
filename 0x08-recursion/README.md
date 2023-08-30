@@ -8,3 +8,4 @@ The C programming language supports recursion, i.e., a function to call itself. 
 
 This project contains the following tasks and their solutions;
 
+- [A function that prints a string using recursion](0-puts_recursion.c)
