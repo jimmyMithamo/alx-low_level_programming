@@ -16,14 +16,13 @@ int sqrt2(int a, int b)
 		return (-1);
 	return (sqrt2(a, b + 1));
 }
-
 /**
-  *_sqrt_recursion - return natural square root of the number
-  *@n:number to be squared
-  *Return: n raised to power 2
-  *-1 returned on error
-  */
-
+ * _sqrt_recursion - returns the natural square root of n
+ * @n: Number Integer
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
 int _sqrt_recursion(int n)
 {
 	return (sqrt2(n, 1));
