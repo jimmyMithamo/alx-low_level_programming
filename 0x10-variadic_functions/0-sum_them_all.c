@@ -3,7 +3,7 @@
 
 /**
   *sum_them_all - sums all its parameters
-  *@const unsigned int n:parameters count
+  *@n:parameters count
   *@...: Variable arguments (variadic)
   *
   *Return:sum of the parameters
@@ -13,17 +13,19 @@ int sum_them_all(const unsigned int n, ...)
 {
 	va_list pars;
 	int i;
-	int sum;
+	int sum = 0;
 
 	va_start(pars, n);
-	if n == 0:
-		return (0);
-	for (i = 0; i < n; i++)
+	if (n != 0):
 	{
-		sum += va_arg(pars, int);
+		for (i = 0; i < n; i++)
+		{
+			sum += va_arg(pars, int);
+		}
+		va_end(pars);
+		return (sum);
 	}
-	va_end(pars);
 
-	return (sum);
+	return (0);
+
 }
-
