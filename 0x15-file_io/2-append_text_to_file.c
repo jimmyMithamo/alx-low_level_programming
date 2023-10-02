@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * append_text_to_file - function that appends text at the end of a file.
  * @filename: pointer to the name of the file to create.
@@ -12,7 +11,6 @@ int append_text_to_file(const char *filename, char *text_content)
 {
 	int file_descriptor;
 	int wwrite;
-
 	
 	if (!filename)
 		return (-1);
@@ -22,11 +20,9 @@ int append_text_to_file(const char *filename, char *text_content)
 	if (text_content)
 	{
 		wwrite = write(file_descriptor, text_content, _strlen(text_content));
-		
 		if (wwrite == -1)
 			return (-1);
 	}
-	/* close file */
 	close(file_descriptor);
 
 	return (1);
