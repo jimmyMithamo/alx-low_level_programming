@@ -1,11 +1,13 @@
 **INTRODUCTION**
+
 This project covers on the basics of file handling in C programming language.It covers on the following :
 * How to create ,open, read and write on files.
-* How to use the I/O systenm calls.
+* How to use the I/O system calls.
 * How to use flags - *O_RDONLY, O_WRONLY, O_RDWR* .
 * How to set file permissions when creating files with *open* system call.
 
 **CONTENT**
+
 Solutions to the following tasks have been provided:
 
 1. [Write a function that reads a text file and prints it to the POSIX standard output.](0-read_textfile.c)
